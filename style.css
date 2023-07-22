@@ -42,7 +42,8 @@ body * {
 }
 
 .container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -110,7 +111,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: calc(360px - 24px - 24px);
+    width: 100%;
+    max-width: 588px;
     padding: 24px;
 }
 
